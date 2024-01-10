@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    color: hsl(0, 36%, 70%)
 }
 .container-1{
     display: flex;
@@ -19,6 +20,15 @@ body{
     width: 300px;
     height: auto;
     margin-bottom: 50px;
+}
+.paragraph-display{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    width:50%;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 5%;
 }
 
 
