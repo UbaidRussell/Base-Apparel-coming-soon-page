@@ -21,6 +21,14 @@ body{
     height: auto;
     margin-bottom: 50px;
 }
+.heading{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 6.5rem;
+    width: 50%;
+    font-weight:300;
+}
+
 .paragraph-display{
     margin-left: 10%;
     margin-right: 10%;
