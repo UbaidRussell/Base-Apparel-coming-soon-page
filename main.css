@@ -38,6 +38,18 @@ body{
     line-height: 1.5;
     margin-top: 2%;
 }
+.email-input-field{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 36%, 70%);
+    padding-left: 10px;
+    font-size: 1.3rem;
+    outline: none;
+}
 
 
 
