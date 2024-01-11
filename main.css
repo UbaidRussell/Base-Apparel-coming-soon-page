@@ -27,12 +27,19 @@ body{
     font-size: 6.5rem;
     width: 50%;
     font-weight:300;
+    text-transform: capitalize;
+}
+.heading-in-heading{
+    font-size: 6.5rem;
+    font-weight:300;
+    text-transform: capitalize;
+    color: hsl(0, 6%, 24%);
 }
 
 .paragraph-display{
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     width:50%;
     font-size: 1.3rem;
     line-height: 1.5;
