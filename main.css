@@ -56,6 +56,10 @@ body{
     font-size: 1.3rem;
     outline: none;
 }
+.email-input-field::placeholder{
+    color:hsl(0, 25%, 70%);
+    padding-left:40px;
+}
 
 
 .innner-container {
