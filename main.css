@@ -103,8 +103,10 @@ body{
     cursor: pointer;
     outline: none;
   }
+  /*Media Queries for mobile*/
+  @media screen and (min-width: 100px) and (max-width: 600px) {
 
-
+  }
 
 
 
