@@ -103,9 +103,16 @@ body{
     cursor: pointer;
     outline: none;
   }
+
+
+
+
   /*Media Queries for mobile*/
   @media screen and (min-width: 100px) and (max-width: 600px) {
-
+    body{
+        flex-direction: column;
+    }
+    /*We're going to make our desktop hero image dissapear and place a mobile image version in the index.html*/
   }
 
 
