@@ -25,6 +25,10 @@ body{
     height: auto;
     margin-bottom: 40px;
 }
+.mobile-image{
+    display: none;
+}
+
 .heading{
     margin-left: 10%;
     margin-right: 10%;
@@ -103,27 +107,10 @@ body{
     cursor: pointer;
     outline: none;
   }
+  
 
 
-
-
-  /*Media Queries for mobile*/
-  @media screen and (min-width: 100px) and (max-width: 600px) {
-    body{
-        flex-direction: column;
-    }
-    /*We're going to make our desktop hero image dissapear and place a mobile image version in the index.html*/
-  }
-
-
-
-
-
-
-
-
-
-.container-2{
+  .container-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,3 +126,26 @@ body{
     background-size: cover;
     position: relative;
 }
+
+
+
+
+  /*Media Queries for mobile*/
+  @media screen and (min-width: 100px) and (max-width: 600px) {
+    body{
+        flex-direction: column;
+    }
+    .mobile-image{
+        display:block;
+    }
+
+
+
+    .container-2{
+        display:none;
+    }
+    /*We're going to make our desktop hero image dissapear and place a mobile image version in the index.html*/
+  }
+
+
+
