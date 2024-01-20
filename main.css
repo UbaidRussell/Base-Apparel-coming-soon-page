@@ -138,12 +138,21 @@ body{
     .mobile-image{
         display:block;
     }
-
-
-
+    .logo-container{
+        margin-left:15%;
+        margin-top: 5%;
+    }
+    .logo{
+        width: 150px;
+        height: auto;
+        margin-bottom: 40px;
+        margin-top:40px;
+    }
+    
     .container-2{
         display:none;
     }
+
     /*We're going to make our desktop hero image dissapear and place a mobile image version in the index.html*/
   }
 
