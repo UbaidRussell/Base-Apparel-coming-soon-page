@@ -131,15 +131,20 @@ body{
 
 
   /*Media Queries for mobile*/
-  @media screen and (min-width: 100px) and (max-width: 600px) {
+  @media screen and (min-width: 100px) and (max-width: 800px) {
     body{
         flex-direction: column;
     }
+
+    .container-1{
+        width: 90%;
+    }
+
+
     .mobile-image{
         display:block;
     }
     .logo-container{
-        margin-left:15%;
         margin-top: 5%;
     }
     .logo{
@@ -150,17 +155,16 @@ body{
     }
 
     .heading-container{
-        margin: auto;
         margin-top:40px;
         margin-bottom:20px;
         letter-spacing: 0rem;
         font-size: 3rem;
-        text-align: center;
     }
     .heading{
         font-size: 2.5rem;
         width: 100%;
         font-weight:300;
+        text-align: center;
     }
     .heading-in-heading{
         font-size: 2.5rem;
