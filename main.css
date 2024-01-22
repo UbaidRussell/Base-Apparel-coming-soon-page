@@ -144,7 +144,14 @@ body{
 
     .mobile-image{
         display:block;
+        width: 100%;
     }
+    .mobile-image img{
+        width: 100%;
+        height: auto;
+    }
+
+
     .logo-container{
         margin-top: 5%;
     }
