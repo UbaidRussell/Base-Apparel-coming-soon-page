@@ -193,6 +193,37 @@ body{
         margin-top: 2%;
     }
 
+    .email-input-field{
+        margin-left: 5%;
+        margin-bottom: 10%;
+        width: 250px;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 36%, 70%);
+        padding-left: 10px;
+        font-size: 1.3rem;
+        outline: none;
+        caret-color: hsl(0, 36%, 70%);
+        text-indent: 40px;
+    }
+
+    button {
+        position:relative;
+        height: 45px;
+        width: 75px;
+        right: 40px;
+        background-color: hsl(0, 36%, 70%);
+        background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        color: #ffffff;
+        text-transform: uppercase;
+        border-style: none;
+        border-radius: 50px;
+        cursor: pointer;
+        outline: none;
+      }
+
+
+
 
     
     .container-2{
