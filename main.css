@@ -112,7 +112,7 @@ body{
 .error-message{
     display: none;
     color: hsl(0, 93%, 68%);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-left: 13%;
     margin-top: 20px;
 }
