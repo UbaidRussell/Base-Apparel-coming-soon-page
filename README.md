@@ -19,7 +19,7 @@ This is my solution to the [Base Apparel coming soon page challenge on Frontend 
 
 ## Overview
 
-  Working on!
+  Coming soon page for a clothing brand. The page is fully responsive and has a form that validates the email address. Very simple and clean design with a nice color scheme.
 
 ### The challenge
 
