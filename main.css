@@ -110,7 +110,7 @@ body{
 
   /*We're going to make this show when our user does not pass the email verification*/
 .error-message{
-    display: none;
+    display: none;/*We want this to hide and show later*/
     color: hsl(0, 93%, 68%);
     font-size: 1.5rem;
     margin-left: 13%;
