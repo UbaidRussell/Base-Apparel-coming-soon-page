@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 ### Continued development
-
+We're going to continue working on the email verification. We're going to add a message that says "Thank you for subscribing" when the email is valid. We're also going to add a message that says "Please provide a valid email address" when the email is not valid.
 
 
 ### Useful resources
