@@ -52,20 +52,35 @@ Users should be able to:
 
 ### What I learned
 
+This is a piece of code we use to validate the email address. We use a regular expression to check if the email is valid. If it is not valid, we show an error message. If it is valid, we hide the error message.
 
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+document.addEventListener('DOMContentLoaded', function () {
+    // Wait for the DOM to be fully loaded
+
+    const emailInput = document.getElementById('email');
+    const errorMessage = document.querySelector('.error-message');
+
+    document.querySelector('.enter-button').addEventListener('click', function () {
+        // Handle the button click event
+
+        const emailValue = emailInput.value.trim();
+
+        if (!isValidEmail(emailValue)) {
+            // If the email is not valid, show the error message
+            errorMessage.style.display = 'block';
+        } else {
+            // If the email is valid, hide the error message
+            errorMessage.style.display = 'none';
+        }
+    });
+
+    function isValidEmail(email) {
+        // Use a regular expression to check if the email is valid
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+});
 ```
 
 
