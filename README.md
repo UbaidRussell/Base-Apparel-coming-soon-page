@@ -102,4 +102,4 @@ We're going to continue working on the email verification. We're going to add a 
 
 ## Acknowledgments
 
-
+Shout out to Frontend Mentor for providing such a great platform to practice and improve our skills. 
