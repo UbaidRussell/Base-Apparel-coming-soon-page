@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!isValidEmail(emailValue)) {
             // If the email is not valid, show the error message
             errorMessage.style.display = 'block';
+            emailInput.style.border = '2px solid red';
         } else {
             // If the email is valid, hide the error message
             errorMessage.style.display = 'none';
