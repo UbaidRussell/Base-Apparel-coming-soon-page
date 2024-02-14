@@ -54,6 +54,9 @@ body{
     line-height: 1.5;
     margin-top: 2%;
 }
+
+
+
 .email-input-field{
     margin-left: 10%;
     width: 50%;
@@ -94,10 +97,8 @@ body{
   }
   
   button {
-    position:relative;
     height: 80px;
     width: 144px;
-    right: 120px;
     background-color: hsl(0, 36%, 70%);
     background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     color: #ffffff;
