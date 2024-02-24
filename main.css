@@ -88,8 +88,10 @@ input {
 }
   
   button {
-    height: 80px;
+    position: absolute;
+    height: 77px;
     width: 144px;
+    right:63%;
     background-color: hsl(0, 36%, 70%);
     background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     color: #ffffff;
@@ -98,6 +100,9 @@ input {
     border-radius: 50px;
     cursor: pointer;
     outline: none;
+  }
+  button img{
+    display: inline;
   }
 
   /*We're going to make this show when our user does not pass the email verification*/
