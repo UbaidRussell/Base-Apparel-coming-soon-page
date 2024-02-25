@@ -45,6 +45,7 @@ Users should be able to:
 
 ### Built with
 
+- HTML5
 - CSS custom properties
 - Flexbox
 - CSS Grid
