@@ -232,7 +232,7 @@ input {
     button {
         position:absolute;
         height: 52px;
-        width: 100px;
+        width: 75px;
         right: 12px;
         background-color: hsl(0, 36%, 70%);
         background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
