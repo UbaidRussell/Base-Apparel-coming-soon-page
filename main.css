@@ -73,14 +73,12 @@ body{
     outline: none;
     caret-color: hsl(0, 36%, 70%);
     text-indent: 40px;
-
-    
-    background-image:url(./images/icon-error.svg);   /*Select email input field and change background-image to this line*/
+    background-image:none;
     background-position:right;   
     background-repeat:no-repeat;   
     background-position-x: 75%;
     background-size: 30px;
-    background-image:none;/*When user email verification does not work we will change this to what we have on line 78*/
+    
 }
 .email-input-field::placeholder{
     color:hsl(0, 25%, 70%);

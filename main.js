@@ -3,16 +3,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const emailInput = document.getElementById('email');
     const errorMessage = document.querySelector('.error-message');
+    const emailInputField = document.querySelector('.email-input-field');
 
     document.querySelector('.enter-button').addEventListener('click', function () {
         // Handle the button click event
 
         const emailValue = emailInput.value.trim();
 
-        if (!isValidEmail(emailValue)) {
+        if (!isValidEmail(emailValue)) {/*THIS IS WHERE WE ARE GOING TO ADD OUR ERROR ICON CODE REMEMBER TO SLECT THE ELEMEMT*/
             // If the email is not valid, show the error message
             errorMessage.style.display = 'block';
             emailInput.style.border = '2px solid red';
+            emailInputField.style.backgroundImage = 'url(./images/icon-error.svg)';
         } else {
             // If the email is valid, hide the error message
             errorMessage.style.display = 'none';
