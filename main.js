@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const emailValue = emailInput.value.trim();
 
-        if (!isValidEmail(emailValue)) {/*THIS IS WHERE WE ARE GOING TO ADD OUR ERROR ICON CODE REMEMBER TO SLECT THE ELEMEMT*/
+        if (!isValidEmail(emailValue)) {
             // If the email is not valid, show the error message
             errorMessage.style.display = 'block';
             emailInput.style.border = '2px solid red';
