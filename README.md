@@ -96,8 +96,8 @@ We're going to continue working on the email verification. We're going to add a 
 
 ## Author
 
-- Website - [Website](UbaidRussell.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [UbaidRussell.com](https://ubaidrussell.com/)
+- Frontend Mentor - [@UbaidRussell](https://www.frontendmentor.io/profile/ubaidrussell)
 - Twitter - [@UbaidRussell](https://www.twitter.com/ubaidrussell)
 
 
