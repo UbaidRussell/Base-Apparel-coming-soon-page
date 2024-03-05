@@ -91,8 +91,7 @@ We're going to continue working on the email verification. We're going to add a 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://stackoverflow.com/questions/20740523/place-an-image-inside-a-text-field) - This is an amazing article which helped me finally understand how to place an image inside a text field. I'd recommend it to anyone still learning this concept it's not a common thing so you won't find it in many tutorialsm, however it's def something worth knowing.
 
 ## Author
 
